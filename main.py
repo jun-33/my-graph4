@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -565,4 +564,3 @@ st.write(
 st.caption(
     "기울기가 클수록 연도가 1년 증가할 때 회귀선이 예측하는 연평균기온의 증가 폭이 큽니다."
 )
-```
