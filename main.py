@@ -11,7 +11,8 @@ import plotly.graph_objects as go
 st.set_page_config(
     page_title="기온 예측기",
     page_icon="🌡️",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.title("🌡️ 기온 예측기")
