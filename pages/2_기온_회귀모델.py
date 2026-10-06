@@ -11,7 +11,8 @@ import plotly.graph_objects as go
 st.set_page_config(
     page_title="서울 기온 선형회귀 비교",
     page_icon="🌡️",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.title("🌡️ 서울 연평균 기온 선형회귀 비교")
